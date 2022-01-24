@@ -7,10 +7,12 @@ div.header {
     background: color #e7cdff;
     border-color:#40007a;
     border-style:groove;
-    border-width:thick;
+    border-width:20px;
     }
 div.header h1 {
     text-align: center;
+    font-family: Verdana;
+    font-size: 50px;
 }
 div.bio {
     background-color: #d4a6ff;
@@ -45,4 +47,19 @@ div.bio h2 {
     width:95%;
     border-style: hidden;
     font-family:verdana;
+}
+div#contact {
+    position:fixed;
+    left:0;
+    top:50%;
+    height:120px;
+    width:50px;
+    border:4px solid white;
+    background-color:#e7cdff;
+}
+div#contact h3 {
+    transform: rotate(90deg);
+    text-align: center;
+    margin-inline-start: 10px;
+    font-size: 24px;
 }
