@@ -1,3 +1,48 @@
 body {
-    background: blue;
+    background:#e7cdff;
+}
+div.header {
+    margin:auto;
+    width:30%;
+    background: color #e7cdff;
+    border-color:#40007a;
+    border-style:groove;
+    border-width:thick;
+    }
+div.header h1 {
+    text-align: center;
+}
+div.bio {
+    background-color: #d4a6ff;
+    margin:0px,0px;
+}    
+div.bio h2 {
+    width:50%;
+}
+#myName {
+    width:50%;
+    font-family: Verdana;
+    font-size: 32px;
+    text-align: center;
+    margin-left:300px;
+    text-transform: uppercase;
+    text-shadow: white 2px 2px 5px;
+    font-variant: small-caps;
+}
+#avi img {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    height:450px;
+    width:675px;
+    border-color: white;
+    border-style: outset;
+    border-width:15px;
+}
+#bio {
+    margin:auto;
+    text-align: left;
+    width:95%;
+    border-style: hidden;
+    font-family:verdana;
 }
