@@ -8,7 +8,7 @@ and creation in general. I find creating things from nothing but a thought very 
 and to be one of the greatest feelings of achievement you can experience. My curiousity 
 has given me an abudance of knowledge in many fields which allows me to find common interests
 with most people I meet. I am well rounded and pick up new skills very fast. 
-I love sports! My favorite teams include the Dallas Cowboys, Mavericks, and Chicago Bulls.
+I love sports! My favorite teams include the Dallas Cowboys, Dallas Mavericks, and Chicago Bulls.
 `;
 document.querySelector("div.bio").appendChild(h2);
 h2.setAttribute('id', 'bio');

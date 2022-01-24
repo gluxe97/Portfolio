@@ -3,7 +3,7 @@ body {
 }
 div.header {
     margin:auto;
-    width:30%;
+    width:40%;
     background: color #e7cdff;
     border-color:#40007a;
     border-style:groove;
@@ -12,11 +12,14 @@ div.header {
 div.header h1 {
     text-align: center;
     font-family: Verdana;
-    font-size: 50px;
+    font-size: 75px;
 }
 div.bio {
     background-color: #d4a6ff;
-    margin:0px,0px;
+    margin:auto;
+    width:100%;
+    height:1000px;
+
 }    
 div.bio h2 {
     width:50%;
@@ -44,7 +47,7 @@ div.bio h2 {
 #bio {
     margin:auto;
     text-align: left;
-    width:95%;
+    width:98%;
     border-style: hidden;
     font-family:verdana;
 }
@@ -62,4 +65,138 @@ div#contact h3 {
     text-align: center;
     margin-inline-start: 10px;
     font-size: 24px;
+}
+div#photography {
+    background-color:#bf78ff;
+    height:140px;
+}
+div#photography h1 {
+    position:relative;
+    text-align: center;
+    margin:auto;
+    border-style: inset;
+    border-width: 10px;
+    font-family: verdana;
+    font-size: 56px;
+    width:40%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    
+}
+div.gallery {
+    margin:auto;
+    text-align: center;
+    background-color:#bf78ff;
+    width:100%;
+    padding-bottom: 140px;
+}
+td#bridge {
+    align-items: center;
+    
+}
+td#bridge img {
+    height:1024px;
+    width:576px;
+}
+td#building {
+    align-items: center;
+    
+}
+td#building img {
+    height:960px;
+    width:540px;
+}
+div.gallery table {
+    table-layout: fixed;
+    border-spacing: 7px;
+}
+td#downtown img {
+    height:1024px;
+    width:512px;
+}
+
+div.aboutPhoto h2 {
+    margin:auto;
+    text-align: center;
+    width:98%;
+    border-style: hidden;
+    font-family:verdana;
+    font-size: 24px;
+}
+div#modeling {
+   background-color:#a441ff;
+    height:160px;
+}
+div#modeling h1 {
+    position:relative;
+    text-align: center;
+    margin:auto;
+    border-style: inset;
+    border-width: 10px;
+    font-family: verdana;
+    font-size: 56px;
+    width:40%;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+div#models {
+    margin:auto;
+    text-align: center;
+    background-color:#a441ff;
+    width:100%;
+    height:2200px;
+    align-content: center;
+}
+table#renders {
+    border-spacing: 10px;
+}
+td#donut {
+    width:1000px;
+    height:810px;
+    vertical-align: middle;
+}
+td#donut img {
+    width:800px;
+    height:650px;
+}
+td#gluxe {
+    width:1000px;
+    height:810px;
+    vertical-align: middle;
+}
+td#gluxe img {
+    width:800px;
+    height:650px;
+}
+td#hallway {
+    vertical-align: middle;
+    align-content: center;
+
+}
+td#hallway img {
+    width:530px;
+    height:1000px;
+}
+td#firstAnimation {
+    vertical-align: middle;
+    align-content: center;
+
+}
+td#firstAnimation img {
+    width:800px;
+    height:1000px;
+}
+div.aboutRenders h2 {
+    margin:auto;
+    text-align: center;
+    width:80%;
+    border-style: hidden;
+    font-family:verdana;
+    font-size: 24px;
+    padding-top: 40px;
+}
+div#footer {
+    height:300px;
+    width:100%;
+    background-color:#40007a;
 }
