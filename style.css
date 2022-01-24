@@ -8,6 +8,8 @@ div.header {
     border-color:#40007a;
     border-style:groove;
     border-width:20px;
+    padding-top:20px;
+    padding-bottom:20px;
     }
 div.header h1 {
     text-align: center;
@@ -69,6 +71,7 @@ div#contact h3 {
 div#photography {
     background-color:#bf78ff;
     height:140px;
+    padding-top:30px;
 }
 div#photography h1 {
     position:relative;
@@ -111,8 +114,12 @@ div.gallery table {
     border-spacing: 7px;
 }
 td#downtown img {
-    height:1024px;
-    width:512px;
+    height:960px;
+    width:540px;
+}
+td#bus img {
+    height:750px;
+    width:1000px;
 }
 
 div.aboutPhoto h2 {
@@ -122,10 +129,12 @@ div.aboutPhoto h2 {
     border-style: hidden;
     font-family:verdana;
     font-size: 24px;
+    padding-top:35px;
 }
 div#modeling {
    background-color:#a441ff;
     height:160px;
+    padding-top:30px;
 }
 div#modeling h1 {
     position:relative;
@@ -148,7 +157,7 @@ div#models {
     align-content: center;
 }
 table#renders {
-    border-spacing: 10px;
+    border-spacing: 7px;
 }
 td#donut {
     width:1000px;
@@ -193,7 +202,28 @@ div.aboutRenders h2 {
     border-style: hidden;
     font-family:verdana;
     font-size: 24px;
-    padding-top: 40px;
+    padding-top: 60px;
+}
+div#proGoals {
+    margin:auto;
+    text-align: center;
+    background-color:#931dff;
+    width:100%;
+    height:1200px;
+    align-content: center;
+    padding-top:30px;
+}
+div#proGoals h1 {
+    position:relative;
+    text-align: center;
+    margin:auto;
+    border-style: inset;
+    border-width: 10px;
+    font-family: verdana;
+    font-size: 56px;
+    width:40%;
+    padding-top:20px;
+    padding-bottom: 20px;
 }
 div#footer {
     height:300px;
