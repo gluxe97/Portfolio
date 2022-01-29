@@ -1,9 +1,11 @@
-body {
-    background:#e7cdff;
+
+div#body {
+    background: linear-gradient(#e7cdff, #40007a);
+    align-items:center;
 }
 div.header {
     margin:auto;
-    width:40%;
+    width: 30%;
     background: color #e7cdff;
     border-color:#40007a;
     border-style:groove;
@@ -16,12 +18,12 @@ div.header h1 {
     font-family: Verdana;
     font-size: 75px;
 }
-div.bio {
+
+.bio {
     background-color: #d4a6ff;
     margin:auto;
-    width:100%;
-    height:1000px;
-
+    width:90vw;
+    height:65vh;
 }    
 div.bio h2 {
     width:50%;
@@ -72,6 +74,9 @@ div#photography {
     background-color:#bf78ff;
     height:140px;
     padding-top:30px;
+    width:90vw;
+    margin:auto;
+    align-self:bottom;
 }
 div#photography h1 {
     position:relative;
@@ -87,37 +92,41 @@ div#photography h1 {
     
 }
 div.gallery {
+    display:flex;
     margin:auto;
     text-align: center;
     background-color:#bf78ff;
     width:100%;
     padding-bottom: 140px;
+    justify-content: space-between;
+    width:90vw;
+    align-items:center;
 }
-td#bridge {
+#bridge {
     align-items: center;
     
 }
-td#bridge img {
+#bridge img {
     height:1024px;
     width:576px;
 }
-td#building {
+#building {
     align-items: center;
     
 }
-td#building img {
+#building img {
     height:960px;
     width:540px;
 }
-div.gallery table {
+div.gallery {
     table-layout: fixed;
     border-spacing: 7px;
 }
-td#downtown img {
+#downtown img {
     height:960px;
     width:540px;
 }
-td#bus img {
+#bus img {
     height:750px;
     width:1000px;
 }
@@ -135,6 +144,7 @@ div#modeling {
    background-color:#a441ff;
     height:160px;
     padding-top:30px;
+    width:90vw;
 }
 div#modeling h1 {
     position:relative;
@@ -152,7 +162,7 @@ div#models {
     margin:auto;
     text-align: center;
     background-color:#a441ff;
-    width:100%;
+    width:90vw;
     height:2200px;
     align-content: center;
 }
